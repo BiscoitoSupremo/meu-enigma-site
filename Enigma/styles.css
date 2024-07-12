@@ -1,0 +1,120 @@
+/* Define o estilo do body */
+body {
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos padrão */
+}
+
+/* Estilo do header */
+header {
+    background-color: #333; /* Fundo cinza escuro */
+    padding: 10px 0; /* Espaçamento vertical */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilo da navegação no header */
+nav ul {
+    list-style: none; /* Remove bullets da lista */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os itens */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove espaçamentos */
+}
+
+/* Estilo dos itens de navegação */
+nav ul li {
+    margin: 0 15px; /* Espaçamento horizontal entre os itens */
+}
+
+/* Estilo dos links de navegação */
+nav ul li a {
+    color: white; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 18px; /* Tamanho da fonte */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover nos links de navegação */
+nav ul li a:hover {
+    color: #FFD700; /* Mudança de cor ao passar o mouse */
+}
+
+/* Estilo do main content */
+main {
+    width: 80%; /* Largura máxima do conteúdo */
+    margin: 20px auto; /* Centraliza horizontalmente com um espaço de margem */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilo dos posts */
+.post {
+    background-color: #444; /* Fundo cinza mais escuro */
+    padding: 20px; /* Espaçamento interno */
+    margin: 0 auto 20px; /* Centraliza horizontalmente com espaço abaixo */
+    max-width: 600px; /* Largura máxima dos posts */
+    text-align: left; /* Alinha texto à esquerda */
+}
+
+/* Estilo do conteúdo dos posts */
+.post-content {
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilo dos comentários */
+.comments {
+    margin-top: 20px; /* Espaçamento acima dos comentários */
+    text-align: left; /* Alinha texto à esquerda */
+}
+
+.comments h3 {
+    font-size: 18px; /* Tamanho da fonte do título dos comentários */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.comments ul {
+    list-style-type: none; /* Remove bullets da lista de comentários */
+    padding: 0; /* Remove espaçamento interno */
+}
+
+.comments textarea {
+    width: 100%; /* Largura total do textarea */
+    margin-top: 10px; /* Espaçamento acima do textarea */
+    padding: 10px; /* Espaçamento interno do textarea */
+    border: 1px solid #ccc; /* Borda cinza */
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+.comments button {
+    margin-top: 10px; /* Espaçamento acima do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #333; /* Cor de fundo do botão */
+    color: white; /* Texto branco */
+    border: none; /* Remove borda */
+    cursor: pointer; /* Cursor ao passar o mouse */
+}
+
+.comments button:hover {
+    background-color: #555; /* Mudança de cor ao passar o mouse */
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #333; /* Fundo cinza escuro */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento vertical */
+    position: fixed; /* Fixa o footer no final da página */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Fixa no rodapé */
+}
+
+/* Estilização dos links no footer */
+footer a {
+    color: white; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+}
+img{
+    size: 10px;
+}
